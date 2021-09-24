@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */; };
 		DF8BF01226FE3CCA005751A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */; };
-		DF8BF01426FE3CCA005751A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01326FE3CCA005751A0 /* ViewController.swift */; };
-		DF8BF01726FE3CCA005751A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01526FE3CCA005751A0 /* Main.storyboard */; };
 		DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01826FE3CCA005751A0 /* SwaglogApp.xcdatamodeld */; };
 		DF8BF01C26FE3CCD005751A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */; };
 		DF8BF01F26FE3CCD005751A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */; };
 		DF8BF02A26FE3CCD005751A0 /* SwaglogAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF02926FE3CCD005751A0 /* SwaglogAppTests.swift */; };
 		DF8BF03426FE3CCD005751A0 /* SwaglogAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF03326FE3CCD005751A0 /* SwaglogAppUITests.swift */; };
 		DF8BF03626FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */; };
+		DF8BF0B626FE485A005751A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF0B426FE485A005751A0 /* HomeViewController.swift */; };
+		DF8BF0B726FE485A005751A0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0B526FE485A005751A0 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		DF8BF00C26FE3CCA005751A0 /* SwaglogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwaglogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF8BF01326FE3CCA005751A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF8BF01626FE3CCA005751A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF8BF01926FE3CCA005751A0 /* SwaglogApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwaglogApp.xcdatamodel; sourceTree = "<group>"; };
 		DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8BF01E26FE3CCD005751A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		DF8BF02F26FE3CCD005751A0 /* SwaglogAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaglogAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8BF03326FE3CCD005751A0 /* SwaglogAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITests.swift; sourceTree = "<group>"; };
 		DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF8BF0B426FE485A005751A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF8BF0B526FE485A005751A0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,9 @@
 		DF8BF00E26FE3CCA005751A0 /* SwaglogApp */ = {
 			isa = PBXGroup;
 			children = (
+				DF8BF0B326FE483E005751A0 /* ViewController */,
 				DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */,
 				DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */,
-				DF8BF01326FE3CCA005751A0 /* ViewController.swift */,
-				DF8BF01526FE3CCA005751A0 /* Main.storyboard */,
 				DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */,
 				DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */,
 				DF8BF02026FE3CCD005751A0 /* Info.plist */,
@@ -128,6 +127,15 @@
 				DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */,
 			);
 			path = SwaglogAppUITests;
+			sourceTree = "<group>";
+		};
+		DF8BF0B326FE483E005751A0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF8BF0B426FE485A005751A0 /* HomeViewController.swift */,
+				DF8BF0B526FE485A005751A0 /* HomeViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +244,7 @@
 			files = (
 				DF8BF01F26FE3CCD005751A0 /* LaunchScreen.storyboard in Resources */,
 				DF8BF01C26FE3CCD005751A0 /* Assets.xcassets in Resources */,
-				DF8BF01726FE3CCA005751A0 /* Main.storyboard in Resources */,
+				DF8BF0B726FE485A005751A0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8BF0B626FE485A005751A0 /* HomeViewController.swift in Sources */,
 				DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */,
-				DF8BF01426FE3CCA005751A0 /* ViewController.swift in Sources */,
 				DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */,
 				DF8BF01226FE3CCA005751A0 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF8BF01526FE3CCA005751A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF8BF01626FE3CCA005751A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +448,6 @@
 				INFOPLIST_FILE = SwaglogApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +475,6 @@
 				INFOPLIST_FILE = SwaglogApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
