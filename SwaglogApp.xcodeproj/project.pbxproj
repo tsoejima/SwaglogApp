@@ -3,129 +3,170 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */; };
-		DF8BF01226FE3CCA005751A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */; };
-		DF8BF01426FE3CCA005751A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01326FE3CCA005751A0 /* ViewController.swift */; };
-		DF8BF01726FE3CCA005751A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01526FE3CCA005751A0 /* Main.storyboard */; };
-		DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF01826FE3CCA005751A0 /* SwaglogApp.xcdatamodeld */; };
-		DF8BF01C26FE3CCD005751A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */; };
-		DF8BF01F26FE3CCD005751A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */; };
-		DF8BF02A26FE3CCD005751A0 /* SwaglogAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF02926FE3CCD005751A0 /* SwaglogAppTests.swift */; };
-		DF8BF03426FE3CCD005751A0 /* SwaglogAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF03326FE3CCD005751A0 /* SwaglogAppUITests.swift */; };
-		DF8BF03626FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */; };
+		1095AD167DE67227E7E709DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96C70372CECA3E346F804CA /* SceneDelegate.swift */; };
+		2E4B06479267C9DA3542F54D /* Pods_SwaglogAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F84803F17E48038838F2A3 /* Pods_SwaglogAppTests.framework */; };
+		5381366835C4497800AA3A66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A3A8436F3A8ABC0E2AE2 /* ViewController.swift */; };
+		53C152CC12146AD6118A533B /* Pods_SwaglogApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3726793EC68E2DE10909116F /* Pods_SwaglogApp.framework */; };
+		61732F9910E5FAD8494F8C27 /* SwaglogAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B632B7AC3EEDD5EDBF7E28D /* SwaglogAppUITestsLaunchTests.swift */; };
+		767ED0361F7ECAAA2D9A4F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F4CB8334EA2D6C99B059A5 /* LaunchScreen.storyboard */; };
+		7AFD2C0657930D34DB3C3709 /* SwaglogAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633DD4BC74E5C91174B6364B /* SwaglogAppUITests.swift */; };
+		804D5070CBD66556ECA8CA0D /* SwaglogAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816544F79CDFF547FC5020BC /* SwaglogAppTests.swift */; };
+		809A28512D8A8483E3D0B8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D599A878699D866A6FD9FB0 /* AppDelegate.swift */; };
+		83254F12957AD512604D2E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CC037D50A38DB0C2492B81 /* Main.storyboard */; };
+		A37B2A7F0A6F090E69F74E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64A68047820F19D90418806 /* Assets.xcassets */; };
+		B8B2E7E90D81367A162B595C /* Pods_SwaglogApp_SwaglogAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE55541C1B40E5284E266C /* Pods_SwaglogApp_SwaglogAppUITests.framework */; };
+		C9A58044F126171563A95F93 /* SwaglogApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E904FC4F1CD2F1335650F88 /* SwaglogApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF8BF02626FE3CCD005751A0 /* PBXContainerItemProxy */ = {
+		7759047D8C469E1D332CAD2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF8BF00426FE3CCA005751A0 /* Project object */;
+			containerPortal = 31BD8942DB8D9FE33E20F5B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF8BF00B26FE3CCA005751A0;
+			remoteGlobalIDString = AE92944DBCFC5C1E92D117BE;
 			remoteInfo = SwaglogApp;
 		};
-		DF8BF03026FE3CCD005751A0 /* PBXContainerItemProxy */ = {
+		BB7A02FAA482819AE562E4BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF8BF00426FE3CCA005751A0 /* Project object */;
+			containerPortal = 31BD8942DB8D9FE33E20F5B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF8BF00B26FE3CCA005751A0;
+			remoteGlobalIDString = AE92944DBCFC5C1E92D117BE;
 			remoteInfo = SwaglogApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF8BF00C26FE3CCA005751A0 /* SwaglogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwaglogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF8BF01326FE3CCA005751A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF8BF01626FE3CCA005751A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF8BF01926FE3CCA005751A0 /* SwaglogApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwaglogApp.xcdatamodel; sourceTree = "<group>"; };
-		DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF8BF01E26FE3CCD005751A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF8BF02026FE3CCD005751A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF8BF02526FE3CCD005751A0 /* SwaglogAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaglogAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8BF02926FE3CCD005751A0 /* SwaglogAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppTests.swift; sourceTree = "<group>"; };
-		DF8BF02F26FE3CCD005751A0 /* SwaglogAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaglogAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8BF03326FE3CCD005751A0 /* SwaglogAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITests.swift; sourceTree = "<group>"; };
-		DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25DA97E959A36E571AD5D551 /* Pods-SwaglogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogApp.release.xcconfig"; path = "Target Support Files/Pods-SwaglogApp/Pods-SwaglogApp.release.xcconfig"; sourceTree = "<group>"; };
+		289B965178E88CCFB9844B55 /* Pods-SwaglogApp-SwaglogAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogApp-SwaglogAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SwaglogApp-SwaglogAppUITests/Pods-SwaglogApp-SwaglogAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D599A878699D866A6FD9FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3726793EC68E2DE10909116F /* Pods_SwaglogApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaglogApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F84803F17E48038838F2A3 /* Pods_SwaglogAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaglogAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5511C845B436E5DA5566A80D /* Pods-SwaglogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogApp.debug.xcconfig"; path = "Target Support Files/Pods-SwaglogApp/Pods-SwaglogApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFE55541C1B40E5284E266C /* Pods_SwaglogApp_SwaglogAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaglogApp_SwaglogAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633DD4BC74E5C91174B6364B /* SwaglogAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITests.swift; sourceTree = "<group>"; };
+		661E3FE4BAABB66FD607AF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E9016D5F33775935404BCBB /* SwaglogAppTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwaglogAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7408458B4036B65BB453CB1F /* Pods-SwaglogAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SwaglogAppTests/Pods-SwaglogAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		754F23ACEFF314668DC66369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		816544F79CDFF547FC5020BC /* SwaglogAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppTests.swift; sourceTree = "<group>"; };
+		89584C86A056ECE7FD576C49 /* SwaglogApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwaglogApp.xcdatamodel; sourceTree = "<group>"; };
+		9B632B7AC3EEDD5EDBF7E28D /* SwaglogAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaglogAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CE73B73DAF443E02E99D481 /* SwaglogAppUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwaglogAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DAA61B18760021AC80721D /* Pods-SwaglogApp-SwaglogAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogApp-SwaglogAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwaglogApp-SwaglogAppUITests/Pods-SwaglogApp-SwaglogAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C64A68047820F19D90418806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AF3C372BB8462E2DA18F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE454F97CF6DF0FF62510B3B /* SwaglogApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwaglogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1406553A93C299DA0AA7F70 /* Pods-SwaglogAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaglogAppTests.release.xcconfig"; path = "Target Support Files/Pods-SwaglogAppTests/Pods-SwaglogAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2B1A3A8436F3A8ABC0E2AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F96C70372CECA3E346F804CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF8BF00926FE3CCA005751A0 /* Frameworks */ = {
+		9AE1868F52690A97A9C92B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B06479267C9DA3542F54D /* Pods_SwaglogAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8BF02226FE3CCD005751A0 /* Frameworks */ = {
+		A5EEA17BE631755C8D389E2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C152CC12146AD6118A533B /* Pods_SwaglogApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8BF02C26FE3CCD005751A0 /* Frameworks */ = {
+		B76922A2BF75443F6F834B6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B2E7E90D81367A162B595C /* Pods_SwaglogApp_SwaglogAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF8BF00326FE3CCA005751A0 = {
+		03D3008E47BB77DADF6A7A1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF8BF00E26FE3CCA005751A0 /* SwaglogApp */,
-				DF8BF02826FE3CCD005751A0 /* SwaglogAppTests */,
-				DF8BF03226FE3CCD005751A0 /* SwaglogAppUITests */,
-				DF8BF00D26FE3CCA005751A0 /* Products */,
+				3726793EC68E2DE10909116F /* Pods_SwaglogApp.framework */,
+				5FFE55541C1B40E5284E266C /* Pods_SwaglogApp_SwaglogAppUITests.framework */,
+				53F84803F17E48038838F2A3 /* Pods_SwaglogAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F91558DD6B969DDE4B87C0E = {
+			isa = PBXGroup;
+			children = (
+				D3ECD3E8361255E10A2B5AA1 /* SwaglogApp */,
+				25551C2E3A2D0D9A9BD4DACF /* SwaglogAppTests */,
+				EDB9912788F61297B1267812 /* SwaglogAppUITests */,
+				A55D6A2F78261185DFB424C0 /* Products */,
+				1709DAFC13272D0E2145FDB5 /* Pods */,
+				03D3008E47BB77DADF6A7A1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DF8BF00D26FE3CCA005751A0 /* Products */ = {
+		1709DAFC13272D0E2145FDB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF8BF00C26FE3CCA005751A0 /* SwaglogApp.app */,
-				DF8BF02526FE3CCD005751A0 /* SwaglogAppTests.xctest */,
-				DF8BF02F26FE3CCD005751A0 /* SwaglogAppUITests.xctest */,
+				5511C845B436E5DA5566A80D /* Pods-SwaglogApp.debug.xcconfig */,
+				25DA97E959A36E571AD5D551 /* Pods-SwaglogApp.release.xcconfig */,
+				A3DAA61B18760021AC80721D /* Pods-SwaglogApp-SwaglogAppUITests.debug.xcconfig */,
+				289B965178E88CCFB9844B55 /* Pods-SwaglogApp-SwaglogAppUITests.release.xcconfig */,
+				7408458B4036B65BB453CB1F /* Pods-SwaglogAppTests.debug.xcconfig */,
+				E1406553A93C299DA0AA7F70 /* Pods-SwaglogAppTests.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		DF8BF00E26FE3CCA005751A0 /* SwaglogApp */ = {
+		25551C2E3A2D0D9A9BD4DACF /* SwaglogAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF8BF00F26FE3CCA005751A0 /* AppDelegate.swift */,
-				DF8BF01126FE3CCA005751A0 /* SceneDelegate.swift */,
-				DF8BF01326FE3CCA005751A0 /* ViewController.swift */,
-				DF8BF01526FE3CCA005751A0 /* Main.storyboard */,
-				DF8BF01B26FE3CCD005751A0 /* Assets.xcassets */,
-				DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */,
-				DF8BF02026FE3CCD005751A0 /* Info.plist */,
-				DF8BF01826FE3CCA005751A0 /* SwaglogApp.xcdatamodeld */,
-			);
-			path = SwaglogApp;
-			sourceTree = "<group>";
-		};
-		DF8BF02826FE3CCD005751A0 /* SwaglogAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF8BF02926FE3CCD005751A0 /* SwaglogAppTests.swift */,
+				816544F79CDFF547FC5020BC /* SwaglogAppTests.swift */,
 			);
 			path = SwaglogAppTests;
 			sourceTree = "<group>";
 		};
-		DF8BF03226FE3CCD005751A0 /* SwaglogAppUITests */ = {
+		A55D6A2F78261185DFB424C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF8BF03326FE3CCD005751A0 /* SwaglogAppUITests.swift */,
-				DF8BF03526FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift */,
+				DE454F97CF6DF0FF62510B3B /* SwaglogApp.app */,
+				6E9016D5F33775935404BCBB /* SwaglogAppTests.xctest */,
+				9CE73B73DAF443E02E99D481 /* SwaglogAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3ECD3E8361255E10A2B5AA1 /* SwaglogApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D599A878699D866A6FD9FB0 /* AppDelegate.swift */,
+				C64A68047820F19D90418806 /* Assets.xcassets */,
+				754F23ACEFF314668DC66369 /* Info.plist */,
+				48F4CB8334EA2D6C99B059A5 /* LaunchScreen.storyboard */,
+				C2CC037D50A38DB0C2492B81 /* Main.storyboard */,
+				F96C70372CECA3E346F804CA /* SceneDelegate.swift */,
+				5E904FC4F1CD2F1335650F88 /* SwaglogApp.xcdatamodeld */,
+				F2B1A3A8436F3A8ABC0E2AE2 /* ViewController.swift */,
+			);
+			path = SwaglogApp;
+			sourceTree = "<group>";
+		};
+		EDB9912788F61297B1267812 /* SwaglogAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633DD4BC74E5C91174B6364B /* SwaglogAppUITests.swift */,
+				9B632B7AC3EEDD5EDBF7E28D /* SwaglogAppUITestsLaunchTests.swift */,
 			);
 			path = SwaglogAppUITests;
 			sourceTree = "<group>";
@@ -133,13 +174,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF8BF00B26FE3CCA005751A0 /* SwaglogApp */ = {
+		545C119531D4239835043BF3 /* SwaglogAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF8BF03926FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogApp" */;
+			buildConfigurationList = 5946927BCDCE65A3733323E9 /* Build configuration list for PBXNativeTarget "SwaglogAppUITests" */;
 			buildPhases = (
-				DF8BF00826FE3CCA005751A0 /* Sources */,
-				DF8BF00926FE3CCA005751A0 /* Frameworks */,
-				DF8BF00A26FE3CCA005751A0 /* Resources */,
+				8255F5E13476A89F685BCB8F /* [CP] Check Pods Manifest.lock */,
+				204A41651F49087BFEC32532 /* Sources */,
+				B76922A2BF75443F6F834B6F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F980B31C9A3219D9DF8E1AC /* PBXTargetDependency */,
+			);
+			name = SwaglogAppUITests;
+			productName = SwaglogAppUITests;
+			productReference = 9CE73B73DAF443E02E99D481 /* SwaglogAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		97B43110CA85B8A2A3597B50 /* SwaglogAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FCF6150D2BDC7EB5E5AECF /* Build configuration list for PBXNativeTarget "SwaglogAppTests" */;
+			buildPhases = (
+				EC62D47CC89463C52767414A /* [CP] Check Pods Manifest.lock */,
+				2D3DBA7948D6DB71AD4B9683 /* Sources */,
+				9AE1868F52690A97A9C92B2D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1EC637A2DC21EA50D9FAC9 /* PBXTargetDependency */,
+			);
+			name = SwaglogAppTests;
+			productName = SwaglogAppTests;
+			productReference = 6E9016D5F33775935404BCBB /* SwaglogAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE92944DBCFC5C1E92D117BE /* SwaglogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CFA2D464E7B581C5179424 /* Build configuration list for PBXNativeTarget "SwaglogApp" */;
+			buildPhases = (
+				A7220870C6CF245F7362911F /* [CP] Check Pods Manifest.lock */,
+				C17FDB90904AE22979B5365F /* Sources */,
+				2A0F4E7F7FDD5E72B9604867 /* Resources */,
+				A5EEA17BE631755C8D389E2F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,247 +225,290 @@
 			);
 			name = SwaglogApp;
 			productName = SwaglogApp;
-			productReference = DF8BF00C26FE3CCA005751A0 /* SwaglogApp.app */;
+			productReference = DE454F97CF6DF0FF62510B3B /* SwaglogApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DF8BF02426FE3CCD005751A0 /* SwaglogAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF8BF03C26FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogAppTests" */;
-			buildPhases = (
-				DF8BF02126FE3CCD005751A0 /* Sources */,
-				DF8BF02226FE3CCD005751A0 /* Frameworks */,
-				DF8BF02326FE3CCD005751A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF8BF02726FE3CCD005751A0 /* PBXTargetDependency */,
-			);
-			name = SwaglogAppTests;
-			productName = SwaglogAppTests;
-			productReference = DF8BF02526FE3CCD005751A0 /* SwaglogAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DF8BF02E26FE3CCD005751A0 /* SwaglogAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF8BF03F26FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogAppUITests" */;
-			buildPhases = (
-				DF8BF02B26FE3CCD005751A0 /* Sources */,
-				DF8BF02C26FE3CCD005751A0 /* Frameworks */,
-				DF8BF02D26FE3CCD005751A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF8BF03126FE3CCD005751A0 /* PBXTargetDependency */,
-			);
-			name = SwaglogAppUITests;
-			productName = SwaglogAppUITests;
-			productReference = DF8BF02F26FE3CCD005751A0 /* SwaglogAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF8BF00426FE3CCA005751A0 /* Project object */ = {
+		31BD8942DB8D9FE33E20F5B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					DF8BF00B26FE3CCA005751A0 = {
-						CreatedOnToolsVersion = 13.0;
+					545C119531D4239835043BF3 = {
+						DevelopmentTeam = 8CDS4RQQHP;
+						TestTargetID = AE92944DBCFC5C1E92D117BE;
 					};
-					DF8BF02426FE3CCD005751A0 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = DF8BF00B26FE3CCA005751A0;
+					97B43110CA85B8A2A3597B50 = {
+						DevelopmentTeam = 8CDS4RQQHP;
 					};
-					DF8BF02E26FE3CCD005751A0 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = DF8BF00B26FE3CCA005751A0;
+					AE92944DBCFC5C1E92D117BE = {
+						DevelopmentTeam = 8CDS4RQQHP;
 					};
 				};
 			};
-			buildConfigurationList = DF8BF00726FE3CCA005751A0 /* Build configuration list for PBXProject "SwaglogApp" */;
-			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = en;
+			buildConfigurationList = 389CA605038ACCDB9160CECC /* Build configuration list for PBXProject "SwaglogApp" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
-			mainGroup = DF8BF00326FE3CCA005751A0;
-			productRefGroup = DF8BF00D26FE3CCA005751A0 /* Products */;
+			mainGroup = 0F91558DD6B969DDE4B87C0E;
+			productRefGroup = A55D6A2F78261185DFB424C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF8BF00B26FE3CCA005751A0 /* SwaglogApp */,
-				DF8BF02426FE3CCD005751A0 /* SwaglogAppTests */,
-				DF8BF02E26FE3CCD005751A0 /* SwaglogAppUITests */,
+				AE92944DBCFC5C1E92D117BE /* SwaglogApp */,
+				97B43110CA85B8A2A3597B50 /* SwaglogAppTests */,
+				545C119531D4239835043BF3 /* SwaglogAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF8BF00A26FE3CCA005751A0 /* Resources */ = {
+		2A0F4E7F7FDD5E72B9604867 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8BF01F26FE3CCD005751A0 /* LaunchScreen.storyboard in Resources */,
-				DF8BF01C26FE3CCD005751A0 /* Assets.xcassets in Resources */,
-				DF8BF01726FE3CCA005751A0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF8BF02326FE3CCD005751A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF8BF02D26FE3CCD005751A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A37B2A7F0A6F090E69F74E93 /* Assets.xcassets in Resources */,
+				767ED0361F7ECAAA2D9A4F7E /* LaunchScreen.storyboard in Resources */,
+				83254F12957AD512604D2E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8255F5E13476A89F685BCB8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaglogApp-SwaglogAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7220870C6CF245F7362911F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaglogApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC62D47CC89463C52767414A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaglogAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DF8BF00826FE3CCA005751A0 /* Sources */ = {
+		204A41651F49087BFEC32532 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */,
-				DF8BF01426FE3CCA005751A0 /* ViewController.swift in Sources */,
-				DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */,
-				DF8BF01226FE3CCA005751A0 /* SceneDelegate.swift in Sources */,
+				7AFD2C0657930D34DB3C3709 /* SwaglogAppUITests.swift in Sources */,
+				61732F9910E5FAD8494F8C27 /* SwaglogAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8BF02126FE3CCD005751A0 /* Sources */ = {
+		2D3DBA7948D6DB71AD4B9683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8BF02A26FE3CCD005751A0 /* SwaglogAppTests.swift in Sources */,
+				804D5070CBD66556ECA8CA0D /* SwaglogAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8BF02B26FE3CCD005751A0 /* Sources */ = {
+		C17FDB90904AE22979B5365F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8BF03426FE3CCD005751A0 /* SwaglogAppUITests.swift in Sources */,
-				DF8BF03626FE3CCD005751A0 /* SwaglogAppUITestsLaunchTests.swift in Sources */,
+				809A28512D8A8483E3D0B8B8 /* AppDelegate.swift in Sources */,
+				1095AD167DE67227E7E709DB /* SceneDelegate.swift in Sources */,
+				C9A58044F126171563A95F93 /* SwaglogApp.xcdatamodeld in Sources */,
+				5381366835C4497800AA3A66 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF8BF02726FE3CCD005751A0 /* PBXTargetDependency */ = {
+		3A1EC637A2DC21EA50D9FAC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF8BF00B26FE3CCA005751A0 /* SwaglogApp */;
-			targetProxy = DF8BF02626FE3CCD005751A0 /* PBXContainerItemProxy */;
+			target = AE92944DBCFC5C1E92D117BE /* SwaglogApp */;
+			targetProxy = 7759047D8C469E1D332CAD2D /* PBXContainerItemProxy */;
 		};
-		DF8BF03126FE3CCD005751A0 /* PBXTargetDependency */ = {
+		3F980B31C9A3219D9DF8E1AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF8BF00B26FE3CCA005751A0 /* SwaglogApp */;
-			targetProxy = DF8BF03026FE3CCD005751A0 /* PBXContainerItemProxy */;
+			target = AE92944DBCFC5C1E92D117BE /* SwaglogApp */;
+			targetProxy = BB7A02FAA482819AE562E4BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF8BF01526FE3CCA005751A0 /* Main.storyboard */ = {
+		48F4CB8334EA2D6C99B059A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF8BF01626FE3CCA005751A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF8BF01D26FE3CCD005751A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF8BF01E26FE3CCD005751A0 /* Base */,
+				D4AF3C372BB8462E2DA18F42 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2CC037D50A38DB0C2492B81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661E3FE4BAABB66FD607AF32 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF8BF03726FE3CCD005751A0 /* Debug */ = {
+		54005B7E6E52E40B7DD359FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289B965178E88CCFB9844B55 /* Pods-SwaglogApp-SwaglogAppUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwaglogAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppUITests;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwaglogApp;
+			};
+			name = Release;
+		};
+		55C60608884FB03B1811CF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1406553A93C299DA0AA7F70 /* Pods-SwaglogAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwaglogAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwaglogApp.app/SwaglogApp";
+			};
+			name = Release;
+		};
+		5AD6FA44D408A12539D315DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DA97E959A36E571AD5D551 /* Pods-SwaglogApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SwaglogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60874D4F7CCCD87513006F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5511C845B436E5DA5566A80D /* Pods-SwaglogApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SwaglogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DF8BF03826FE3CCD005751A0 /* Release */ = {
+		A8A5A919AD7FDDB361E4E676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DAA61B18760021AC80721D /* Pods-SwaglogApp-SwaglogAppUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwaglogAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwaglogApp;
+			};
+			name = Debug;
+		};
+		ADD1B455F5E4766CB75D07DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -415,7 +536,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -427,220 +550,154 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		DF8BF03A26FE3CCD005751A0 /* Debug */ = {
+		CA1F8604D9C9091D3455B792 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7408458B4036B65BB453CB1F /* Pods-SwaglogAppTests.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwaglogApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DF8BF03B26FE3CCD005751A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwaglogApp/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DF8BF03D26FE3CCD005751A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = SwaglogAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwaglogApp.app/SwaglogApp";
 			};
 			name = Debug;
 		};
-		DF8BF03E26FE3CCD005751A0 /* Release */ = {
+		E6821A364CA7C10BA84856CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppTests;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwaglogApp.app/SwaglogApp";
-			};
-			name = Release;
-		};
-		DF8BF04026FE3CCD005751A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwaglogApp;
 			};
 			name = Debug;
-		};
-		DF8BF04126FE3CCD005751A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8CDS4RQQHP;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.SwaglogAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwaglogApp;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF8BF00726FE3CCA005751A0 /* Build configuration list for PBXProject "SwaglogApp" */ = {
+		389CA605038ACCDB9160CECC /* Build configuration list for PBXProject "SwaglogApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8BF03726FE3CCD005751A0 /* Debug */,
-				DF8BF03826FE3CCD005751A0 /* Release */,
+				E6821A364CA7C10BA84856CF /* Debug */,
+				ADD1B455F5E4766CB75D07DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		DF8BF03926FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogApp" */ = {
+		5946927BCDCE65A3733323E9 /* Build configuration list for PBXNativeTarget "SwaglogAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8BF03A26FE3CCD005751A0 /* Debug */,
-				DF8BF03B26FE3CCD005751A0 /* Release */,
+				A8A5A919AD7FDDB361E4E676 /* Debug */,
+				54005B7E6E52E40B7DD359FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		DF8BF03C26FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogAppTests" */ = {
+		86CFA2D464E7B581C5179424 /* Build configuration list for PBXNativeTarget "SwaglogApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8BF03D26FE3CCD005751A0 /* Debug */,
-				DF8BF03E26FE3CCD005751A0 /* Release */,
+				60874D4F7CCCD87513006F35 /* Debug */,
+				5AD6FA44D408A12539D315DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		DF8BF03F26FE3CCD005751A0 /* Build configuration list for PBXNativeTarget "SwaglogAppUITests" */ = {
+		F9FCF6150D2BDC7EB5E5AECF /* Build configuration list for PBXNativeTarget "SwaglogAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8BF04026FE3CCD005751A0 /* Debug */,
-				DF8BF04126FE3CCD005751A0 /* Release */,
+				CA1F8604D9C9091D3455B792 /* Debug */,
+				55C60608884FB03B1811CF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DF8BF01826FE3CCA005751A0 /* SwaglogApp.xcdatamodeld */ = {
+		5E904FC4F1CD2F1335650F88 /* SwaglogApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DF8BF01926FE3CCA005751A0 /* SwaglogApp.xcdatamodel */,
+				89584C86A056ECE7FD576C49 /* SwaglogApp.xcdatamodel */,
 			);
-			currentVersion = DF8BF01926FE3CCA005751A0 /* SwaglogApp.xcdatamodel */;
+			currentVersion = 89584C86A056ECE7FD576C49 /* SwaglogApp.xcdatamodel */;
 			path = SwaglogApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = DF8BF00426FE3CCA005751A0 /* Project object */;
+	rootObject = 31BD8942DB8D9FE33E20F5B6 /* Project object */;
 }

@@ -1,0 +1,43 @@
+name: SwaglogApp
+
+options:
+    bundleIdPrefix: com.Aplaice
+    deploymentTarget:
+        iOS: 15.0
+    developmentLanguage: ja
+    postGenCommand: pod install
+    
+settings:
+    base:
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        DEVELOPMENT_TEAM: 8CDS4RQQHP
+
+targets:
+    SwaglogApp:
+        type: application
+        platform: iOS
+        sources: SwaglogApp
+        settings:
+            base:
+                INFOPLIST_FILE: SwaglogApp/Info.plist
+
+    SwaglogAppTests:
+        type: bundle.unit-test
+        platform: iOS
+        sources: SwaglogAppTests
+        settings:
+            base:
+                INFOPLIST_FILE: SwaglogAppTests/Info.plist
+        dependencies:
+            - target: SwaglogApp
+
+    SwaglogAppUITests:
+        type: bundle.ui-testing
+        platform: iOS
+        sources: SwaglogAppUITests
+        settings:
+            base:
+                INFOPLIST_FILE: SwaglogAppUITests/Info.plist
+        dependencies:
+            - target: SwaglogApp
