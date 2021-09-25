@@ -29,6 +29,7 @@
 		DF8BF0D126FE526B005751A0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0BD26FE4E05005751A0 /* Roboto-LightItalic.ttf */; };
 		DF8BF0D226FE526B005751A0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0BF26FE4E05005751A0 /* Roboto-BlackItalic.ttf */; };
 		DF8BF0D326FE526B005751A0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0C226FE4E05005751A0 /* Roboto-Medium.ttf */; };
+		DF8BF0D526FE5763005751A0 /* CircleTimeRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF0D426FE5763005751A0 /* CircleTimeRecordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		DF8BF0C526FE4E06005751A0 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		DF8BF0C626FE4E06005751A0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		DF8BF0C726FE4E06005751A0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DF8BF0D426FE5763005751A0 /* CircleTimeRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimeRecordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		DF8BF0BA26FE49BB005751A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF8BF0D426FE5763005751A0 /* CircleTimeRecordView.swift */,
 			);
 			name = View;
 			path = ViewController/View;
@@ -343,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8BF0B626FE485A005751A0 /* HomeViewController.swift in Sources */,
+				DF8BF0D526FE5763005751A0 /* CircleTimeRecordView.swift in Sources */,
 				DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */,
 				DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */,
 				DF8BF01226FE3CCA005751A0 /* SceneDelegate.swift in Sources */,

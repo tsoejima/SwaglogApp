@@ -9,8 +9,14 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var timeRecordView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(timeRecordView.bounds)
+        
+        let circleTimeRecordView = CircleTimeRecordView(frame: timeRecordView.bounds)
+        timeRecordView.addSubview(circleTimeRecordView)
 
         // Do any additional setup after loading the view.
     }
