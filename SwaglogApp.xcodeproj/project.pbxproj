@@ -30,6 +30,7 @@
 		DF8BF0D226FE526B005751A0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0BF26FE4E05005751A0 /* Roboto-BlackItalic.ttf */; };
 		DF8BF0D326FE526B005751A0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0C226FE4E05005751A0 /* Roboto-Medium.ttf */; };
 		DF8BF0D526FE5763005751A0 /* CircleTimeRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BF0D426FE5763005751A0 /* CircleTimeRecordView.swift */; };
+		DF8BF0D726FEF2E9005751A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8BF0D626FEF2E9005751A0 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		DF8BF0C626FE4E06005751A0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		DF8BF0C726FE4E06005751A0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		DF8BF0D426FE5763005751A0 /* CircleTimeRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimeRecordView.swift; sourceTree = "<group>"; };
+		DF8BF0D626FEF2E9005751A0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		DF8BF00326FE3CCA005751A0 = {
 			isa = PBXGroup;
 			children = (
+				DF8BF0D626FEF2E9005751A0 /* Colors.xcassets */,
 				DF8BF00E26FE3CCA005751A0 /* SwaglogApp */,
 				DF8BF02826FE3CCD005751A0 /* SwaglogAppTests */,
 				DF8BF03226FE3CCD005751A0 /* SwaglogAppUITests */,
@@ -319,6 +322,7 @@
 				DF8BF0CD26FE526B005751A0 /* Roboto-Bold.ttf in Resources */,
 				DF8BF0C926FE526B005751A0 /* Roboto-Regular.ttf in Resources */,
 				DF8BF01C26FE3CCD005751A0 /* Assets.xcassets in Resources */,
+				DF8BF0D726FEF2E9005751A0 /* Colors.xcassets in Resources */,
 				DF8BF0CF26FE526B005751A0 /* Roboto-Italic.ttf in Resources */,
 				DF8BF0B726FE485A005751A0 /* HomeViewController.xib in Resources */,
 			);
