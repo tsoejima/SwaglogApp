@@ -40,6 +40,7 @@
 		DFA1C7DD270093EA000D3FE4 /* MainActivityNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1C7DC270093EA000D3FE4 /* MainActivityNote.swift */; };
 		DFA1C7DF27009411000D3FE4 /* MainActivityNote.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA1C7DE27009411000D3FE4 /* MainActivityNote.xib */; };
 		DFA1C7E227009615000D3FE4 /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA1C7E127009615000D3FE4 /* bed.png */; };
+		DFA1C7E627014892000D3FE4 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1C7E527014892000D3FE4 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		DFA1C7DC270093EA000D3FE4 /* MainActivityNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityNote.swift; sourceTree = "<group>"; };
 		DFA1C7DE27009411000D3FE4 /* MainActivityNote.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainActivityNote.xib; sourceTree = "<group>"; };
 		DFA1C7E127009615000D3FE4 /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
+		DFA1C7E527014892000D3FE4 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		DF8BF00E26FE3CCA005751A0 /* SwaglogApp */ = {
 			isa = PBXGroup;
 			children = (
+				DFA1C7E42701487F000D3FE4 /* Model */,
 				DFA1C7CF26FF290C000D3FE4 /* Animations */,
 				DF8BF0BB26FE4DD4005751A0 /* Fonts */,
 				DF8BF0BA26FE49BB005751A0 /* View */,
@@ -217,8 +220,7 @@
 		DF8BF0B326FE483E005751A0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DF8BF0B426FE485A005751A0 /* HomeViewController.swift */,
-				DF8BF0B526FE485A005751A0 /* HomeViewController.xib */,
+				DFA1C7E32700CC77000D3FE4 /* Top */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -293,6 +295,23 @@
 				DFA1C7E127009615000D3FE4 /* bed.png */,
 			);
 			path = TopImage;
+			sourceTree = "<group>";
+		};
+		DFA1C7E32700CC77000D3FE4 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				DF8BF0B526FE485A005751A0 /* HomeViewController.xib */,
+				DF8BF0B426FE485A005751A0 /* HomeViewController.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		DFA1C7E42701487F000D3FE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFA1C7E527014892000D3FE4 /* TimeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,6 +573,7 @@
 				DFA1C7DD270093EA000D3FE4 /* MainActivityNote.swift in Sources */,
 				DFA1C7D427002ED2000D3FE4 /* RecordIndicatorAnimation.swift in Sources */,
 				DF8BF0D526FE5763005751A0 /* CircleTimeRecordView.swift in Sources */,
+				DFA1C7E627014892000D3FE4 /* TimeModel.swift in Sources */,
 				DFA1C7DB27007072000D3FE4 /* ButtonGradient.swift in Sources */,
 				DF8BF01A26FE3CCA005751A0 /* SwaglogApp.xcdatamodeld in Sources */,
 				DF8BF01026FE3CCA005751A0 /* AppDelegate.swift in Sources */,

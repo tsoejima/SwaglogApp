@@ -16,13 +16,20 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak private var recordIndicatorView: UIView!
     @IBOutlet weak private var recordIndicatorAnimationView: UIView!
     @IBOutlet weak var buttonBackgroundView: UIView!
+    @IBOutlet weak var activityNoteStackView: UIStackView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         heightSetting()
-        let buttonGradient = ButtonGradient()
-        buttonGradient.startButtonBackgroundSetting(view: buttonBackgroundView)
+        
+        let mainActivityNote = MainActivityNote()
+        mainActivityNote.frame = CGRect(x: 0, y: 0, width: activityNoteStackView.bounds.size.width, height: 100)
+        activityNoteStackView.addArrangedSubview(mainActivityNote)
+        let mainActivityNote2 = MainActivityNote()
+        mainActivityNote2.frame = CGRect(x: 0, y: 0, width: activityNoteStackView.bounds.size.width, height: 100)
+        activityNoteStackView.addArrangedSubview(mainActivityNote2)
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -33,12 +40,15 @@ final class HomeViewController: UIViewController {
         
         let recorIndicatorAnimation = RecordIndicatorAnimaton()
         recorIndicatorAnimation.startRecordIndicatorAnimation(indicatorView: recordIndicatorAnimationView)
+        
+        let buttonGradient = ButtonGradient()
+        buttonGradient.startButtonBackgroundSetting(view: buttonBackgroundView)
     }
     
     func heightSetting() {
         
         let FixedViewsHeight = 648
-        let viewsHeight:CGFloat = CGFloat(FixedViewsHeight + (60 * 4))
+        let viewsHeight:CGFloat = CGFloat(FixedViewsHeight + (100 * 2))
         ContentView.translatesAutoresizingMaskIntoConstraints = false
         if viewsHeight <= self.view.bounds.size.height {
             ContentView.heightAnchor.constraint(equalToConstant: self.view.bounds.size.height).isActive = true

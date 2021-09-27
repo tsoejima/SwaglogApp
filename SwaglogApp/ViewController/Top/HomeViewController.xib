@@ -24,6 +24,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="SwaglogApp" customModuleProvider="target">
             <connections>
                 <outlet property="ContentView" destination="NFB-dh-19a" id="E1s-JN-lSd"/>
+                <outlet property="activityNoteStackView" destination="cmR-Cf-X6w" id="ayE-8w-Z3c"/>
                 <outlet property="buttonBackgroundView" destination="oeL-sI-Skr" id="m7V-CZ-6fm"/>
                 <outlet property="recordIndicatorAnimationView" destination="d0N-mA-JTL" id="nUt-3y-4Q1"/>
                 <outlet property="recordIndicatorView" destination="kMB-2U-5YX" id="mnB-hb-6ib"/>
@@ -200,7 +201,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="MainBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="oeL-sI-Skr" firstAttribute="centerX" secondItem="2wn-0V-mow" secondAttribute="centerX" id="0c5-qf-dCg"/>
                                         <constraint firstAttribute="height" constant="60" id="3fj-sH-gTN"/>
@@ -222,13 +223,16 @@
                                             <buttonConfiguration key="configuration" style="plain" title="手動で記録を入力する"/>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="MainBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="p40-jS-Zdw" firstAttribute="centerX" secondItem="pRG-O5-i0w" secondAttribute="centerX" id="9pF-4Z-nmS"/>
                                         <constraint firstAttribute="bottom" secondItem="p40-jS-Zdw" secondAttribute="bottom" id="MAl-8K-AZd"/>
                                         <constraint firstAttribute="height" constant="30" id="QLU-8H-vbH"/>
                                     </constraints>
                                 </view>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cmR-Cf-X6w">
+                                    <rect key="frame" x="40" y="656" width="310" height="188"/>
+                                </stackView>
                             </subviews>
                             <color key="backgroundColor" name="MainBackgroundColor"/>
                             <constraints>
@@ -237,15 +241,19 @@
                                 <constraint firstItem="pRG-O5-i0w" firstAttribute="top" secondItem="2wn-0V-mow" secondAttribute="bottom" id="6f7-nn-BZ9"/>
                                 <constraint firstItem="eOW-Zr-3f2" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" id="BwJ-mB-DNB"/>
                                 <constraint firstAttribute="trailing" secondItem="pRG-O5-i0w" secondAttribute="trailing" id="D4V-mA-sEc"/>
+                                <constraint firstAttribute="bottom" secondItem="cmR-Cf-X6w" secondAttribute="bottom" id="GXT-9K-3Gu"/>
                                 <constraint firstItem="3aC-fw-ciH" firstAttribute="top" secondItem="NFB-dh-19a" secondAttribute="top" identifier="9999" id="Huu-04-JTJ"/>
                                 <constraint firstItem="pRG-O5-i0w" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" id="IrM-zj-QVX"/>
+                                <constraint firstItem="cmR-Cf-X6w" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" constant="40" id="Qty-2R-g1Y"/>
                                 <constraint firstItem="kMB-2U-5YX" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" id="Tzw-co-oA4"/>
                                 <constraint firstItem="eOW-Zr-3f2" firstAttribute="top" secondItem="3aC-fw-ciH" secondAttribute="bottom" id="UI9-D9-uYS"/>
                                 <constraint firstAttribute="trailing" secondItem="kMB-2U-5YX" secondAttribute="trailing" id="WAl-yO-6BG"/>
                                 <constraint firstItem="MmZ-9R-HPY" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" id="bUT-Wv-YMa"/>
                                 <constraint firstItem="kMB-2U-5YX" firstAttribute="top" secondItem="MmZ-9R-HPY" secondAttribute="bottom" constant="-30" id="bpp-jz-UyY"/>
+                                <constraint firstItem="cmR-Cf-X6w" firstAttribute="top" secondItem="pRG-O5-i0w" secondAttribute="bottom" constant="10" id="e6t-AJ-eyU"/>
                                 <constraint firstAttribute="trailing" secondItem="2wn-0V-mow" secondAttribute="trailing" id="ffc-cl-wGV"/>
                                 <constraint firstItem="MmZ-9R-HPY" firstAttribute="top" secondItem="eOW-Zr-3f2" secondAttribute="bottom" id="gHV-4n-9uh"/>
+                                <constraint firstAttribute="trailing" secondItem="cmR-Cf-X6w" secondAttribute="trailing" constant="40" id="hIL-Gx-udS"/>
                                 <constraint firstAttribute="trailing" secondItem="eOW-Zr-3f2" secondAttribute="trailing" id="hwC-3c-8lt"/>
                                 <constraint firstItem="2wn-0V-mow" firstAttribute="leading" secondItem="NFB-dh-19a" secondAttribute="leading" id="ikA-35-e8w"/>
                                 <constraint firstItem="2wn-0V-mow" firstAttribute="top" secondItem="kMB-2U-5YX" secondAttribute="bottom" constant="10" id="kvB-4v-8Ct"/>
@@ -267,7 +275,7 @@
                 </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="MainBackgroundColor"/>
             <constraints>
                 <constraint firstItem="UEO-VC-Dfv" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="CLo-Hi-1ku"/>
                 <constraint firstItem="UEO-VC-Dfv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Sso-g6-64R"/>
@@ -287,9 +295,6 @@
         </namedColor>
         <systemColor name="secondarySystemFillColor">
             <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

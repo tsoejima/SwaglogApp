@@ -21,7 +21,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainActivityNote" customModule="SwaglogApp" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="321" height="109"/>
+            <rect key="frame" x="0.0" y="0.0" width="324" height="109"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7m-dt-mJW">
@@ -54,7 +54,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMs-IG-OSI">
-                    <rect key="frame" x="60" y="0.0" width="261" height="40"/>
+                    <rect key="frame" x="60" y="0.0" width="264" height="40"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就寝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPA-yX-Oxb">
                             <rect key="frame" x="10" y="0.0" width="40" height="40"/>
@@ -63,7 +63,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7時間23分" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ln-9P-2Xm">
-                            <rect key="frame" x="61" y="10" width="200" height="20"/>
+                            <rect key="frame" x="64" y="10" width="200" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="4Hh-Ha-sjB"/>
                                 <constraint firstAttribute="height" constant="20" id="BQp-BB-N1O"/>
@@ -84,10 +84,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5A6-An-ga9">
-                    <rect key="frame" x="60" y="40" width="261" height="69"/>
+                    <rect key="frame" x="60" y="40" width="264" height="69"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3b-OO-pdo">
-                            <rect key="frame" x="0.0" y="0.0" width="226.5" height="34.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="229.5" height="34.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23:49 - 7:12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w44-nc-XLX">
                                     <rect key="frame" x="0.0" y="14.5" width="78" height="20"/>
@@ -100,15 +100,15 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="MainBackgroundColor"/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="w44-nc-XLX" secondAttribute="bottom" id="7Sj-PY-MlG"/>
                                 <constraint firstItem="w44-nc-XLX" firstAttribute="leading" secondItem="g3b-OO-pdo" secondAttribute="leading" id="Abu-Hb-kp3"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDx-ut-d7s">
-                            <rect key="frame" x="0.0" y="34.5" width="261" height="34.5"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <rect key="frame" x="0.0" y="34.5" width="264" height="34.5"/>
+                            <color key="backgroundColor" name="MainBackgroundColor"/>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="睡眠時間をしっかり取れました！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf6-8c-pmq">
                             <rect key="frame" x="0.0" y="34.5" width="225" height="20"/>
@@ -121,7 +121,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqN-Qa-6V5">
-                            <rect key="frame" x="226.5" y="0.0" width="34.5" height="34.5"/>
+                            <rect key="frame" x="229.5" y="0.0" width="34.5" height="34.5"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="HqN-Qa-6V5" secondAttribute="height" multiplier="1:1" id="sGD-mQ-Hpd"/>
                             </constraints>
@@ -170,7 +170,7 @@
                 <constraint firstItem="b7m-dt-mJW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="k91-01-EkB"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="70.28985507246378" y="-163.72767857142856"/>
+            <point key="canvasLocation" x="72.463768115942031" y="-163.72767857142856"/>
         </view>
     </objects>
     <resources>
@@ -184,9 +184,6 @@
         </namedColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
