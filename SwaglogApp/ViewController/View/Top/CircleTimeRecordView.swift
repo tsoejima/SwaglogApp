@@ -51,7 +51,7 @@ class CircleTimeRecordView: UIView {
         
         let timeModel = TimeModel()
         let nowTime = timeModel.nowtime()
-        let nowTimeAngle: CGFloat = CGFloat((nowTime / 360) - 90)
+        let nowTimeAngle: CGFloat = CGFloat((nowTime / 360))
         
         let nowTimeLayer = CAShapeLayer()
         let nowTimeradius = (rect.size.width / 5) + 60.0
@@ -59,7 +59,7 @@ class CircleTimeRecordView: UIView {
 
         let nowTimePath = UIBezierPath(arcCenter: CGPoint(x: rect.midX, y: rect.midY - 20),
                                       radius: nowTimeradius,
-                                      startAngle: CGFloat(Double.pi) * 2 * 270 / 360.0,
+                                       startAngle: CGFloat(Double.pi) * 2 * -90.0 / 360.0,
                                        endAngle: CGFloat(Double.pi) * 2 * nowTimeAngle / 360.0,
                                       clockwise: true)
         nowTimeLayer.frame = rect
