@@ -7,6 +7,8 @@ target 'SwaglogApp' do
 
   # Pods for SwaglogApp
   pod 'lottie-ios'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'SwaglogAppTests' do
     inherit! :search_paths
